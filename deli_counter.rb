@@ -7,10 +7,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else katz_deli.length > 0
     puts "The line is currently:"
-    counter = 1
     each.katz_deli.with_index do |new_person, index|
       "#{index + 1}. #{new_person}"
-      counter += 1
+    end 
 
 end
 
