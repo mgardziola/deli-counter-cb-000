@@ -10,6 +10,7 @@ def line(katz_deli)
     counter = 1
     each.katz_deli do |new_person|
       "#{counter}. #{katz_deli[counter-1]}"
+      counter += 1
   end 
 end
 
