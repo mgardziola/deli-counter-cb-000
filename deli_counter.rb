@@ -7,7 +7,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else katz_deli.length > 0
       puts "The line is currently:"
-      each.katz_deli.with_index do |new_person index|
+      katz_deli.each_with_index do |new_person index|
       puts "#{index+1}. #{new_person}"
     end 
 
