@@ -10,7 +10,7 @@ def line(katz_deli)
       katz_deli.each_with_index do |new_person, index|
       line += "#{index+1}. #{new_person}"
     end 
-
+end 
 end
 
 def take_a_number(katz_deli, new_person)
