@@ -8,8 +8,8 @@ def line(katz_deli)
   else katz_deli.length > 0
     puts "The line is currently:"
     counter = 1
-    each.katz_deli do |new_person|
-      "#{counter}. #{new_person}"
+    each.katz_deli.with_index do |new_person, index|
+      "#{index + 1}. #{new_person}"
       counter += 1
 
 end
