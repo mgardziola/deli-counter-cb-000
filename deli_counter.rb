@@ -8,6 +8,7 @@ def line(katz_deli)
   else katz_deli.length > 0
       puts "The line is currently:"
       each.katz_deli.with_index(1) |new_person, index|
+      puts "#{index+1}. #{new_person}"
     end 
 
 end
