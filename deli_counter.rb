@@ -9,7 +9,7 @@ def line(katz_deli)
     puts "The line is currently:"
     counter = 1
     each.katz_deli do |new_person|
-      "#{counter"
+      "#{counter}. "
   end 
 end
 
