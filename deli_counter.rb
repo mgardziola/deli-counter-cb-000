@@ -11,7 +11,7 @@ def line(katz_deli)
     each.katz_deli do |new_person|
       "#{counter}. #{new_person}"
       counter += 1
-  end 
+
 end
 
 def take_a_number(katz_deli, new_person)
