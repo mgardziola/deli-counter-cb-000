@@ -8,6 +8,8 @@ def line(katz_deli)
   else katz_deli.length > 0
     puts "The line is currently:"
     counter = 1
+    each.katz_deli do |new_person|
+      "#{counter"
   end 
 end
 
